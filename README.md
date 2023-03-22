@@ -19,3 +19,17 @@ http://localhost:3000/
 now you should see the card like this:
 
 ![enter image description here](/pictures/card.png)
+
+
+Prepare for production:
+
+```
+npm run build
+npm run preview
+```
+
+or use node to run after buid:
+
+```
+node .output/server/index.mjs
+```
